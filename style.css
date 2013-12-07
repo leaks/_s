@@ -22,6 +22,14 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
+/* =Fonts
+-------------------------------------------------------------- */
+@font-face { font-family: Tuffy; src: url('fonts/Tuffy-Regular.ttf'); }
+@font-face { font-family: Tuffy; font-weight: bold; src: url('fonts/Tuffy-Bold.ttf'); }
+@font-face { font-family: Tuffy; font-style: italic; src: url('fonts/Tuffy-Italic.ttf'); }
+@font-face { font-family: Tuffy; font-weight: bold; font-style: italic; src: url('fonts/Tuffy-BoldItalic.ttf'); }
+@font-face { font-family: NeoRetroFill; src: url('fonts/NEORF___.ttf'); }
+@font-face { font-family: NeoRetroShadow; src: url('fonts/NEORS___.ttf'); }
 
 /* =Reset
 -------------------------------------------------------------- */
@@ -103,10 +111,9 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	color: #41342B;
+	font-family: Tuffy, sans-serif;
 	font-size: 16px;
-	font-size: 1.6rem;
 	line-height: 1.5;
 }
 
@@ -114,6 +121,46 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
+
+h1 {
+	font-family: NeoRetroShadow;
+	font-size: 32px;
+	color: #E01E39;
+}
+h1 a {
+	color: #E01E39;
+}
+
+h2 {
+	font-family: NeoRetroFill;
+	font-size: 29px;
+	color: #E01E39;
+}
+
+h3 {
+	font-family: NeoRetroFill;
+	font-size: 26px;
+	color: #E97163;
+}
+
+h4 {
+	font-family: NeoRetroFill;
+	font-size: 24px;
+	color: #E97163;
+}
+
+h5 {
+	font-family: NeoRetroFill;
+	font-size: 22px;
+	color: #D3D3D3;
+}
+
+h6 {
+	font-family: NeoRetroFill;
+	font-size: 19px;
+	color: #D3D3D3;
+}
+
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -315,15 +362,14 @@ textarea {
 
 /* Links */
 a {
-	color: royalblue;
+	color: #41342B;
+	text-decoration: none;
 }
-a:visited {
-	color: purple;
-}
+
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	text-decoration: underline;
 }
 
 /* Alignment */
@@ -396,6 +442,9 @@ a:active {
 	clear: both;
 }
 
+.site-content {
+background-color: #F4F1EC;
+}
 
 /* =Menu
 ----------------------------------------------- */
@@ -405,6 +454,7 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	margin: 1em 0 1em 0;
 }
 .main-navigation ul {
 	list-style: none;
@@ -414,6 +464,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	margin: 0 1em 0 0;
 }
 .main-navigation a {
 	display: block;
@@ -516,7 +567,6 @@ a:active {
 	padding: 0;
 }
 .wp-caption {
-	border: 1px solid #ccc;
 	margin-bottom: 1.5em;
 	max-width: 100%;
 }
@@ -556,6 +606,24 @@ object {
 	max-width: 100%;
 }
 
+/* =Masthead
+----------------------------------------------- */
+.site-branding {
+	text-align: center;
+}
+.site-header {
+	margin: 0 25% 0;
+}
+
+.site-title {
+	display:none;
+}
+
+/* =Footer
+----------------------------------------------- */
+.site-info {
+	text-align:center;
+}
 
 /* =Navigation
 ----------------------------------------------- */
@@ -615,4 +683,29 @@ object {
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+
+/* =Structure
+----------------------------------------------- */
+#primary {
+	float: left;
+	margin: 0 -25% 0 0;
+	width: 70%;
+}
+#content {
+	margin: 0 25% 0;
+	padding: 0 0 0 2%;
+}
+#secondary { /* Sidebar 1 */
+	float: right;
+	overflow: hidden;
+	width: 25%;
+}
+#tertiary { /* Sidebar 2 */
+	clear: right;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+	margin: 3em 0;
 }

@@ -1,8 +1,8 @@
 <?php
 /**
- * _s functions and definitions
+ * sophstertoaster2013 functions and definitions
  *
- * @package _s
+ * @package sophstertoaster2013
  */
 
 /**
@@ -50,7 +50,7 @@ function sophstertoaster2013_setup() {
 	// Setup the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'sophstertoaster2013_custom_background_args', array(
 		'default-color' => 'f4f1ec',
-		'default-image' => '',
+		'default-image' => get_stylesheet_directory_uri() . '/images/background.png',
 	) ) );
 }
 endif; // sophstertoaster2013_setup
@@ -80,6 +80,8 @@ function sophstertoaster2013_scripts() {
 	wp_enqueue_script( 'sophstertoaster2013-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'sophstertoaster2013-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	
+	wp_enqueue_script( 'sophstertoaster2013-pintrest-pinit', get_template_directory_uri() . '/js/pintrest-pinit.js', array(), '20131201', false );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
