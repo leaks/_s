@@ -690,13 +690,13 @@ object {
 ----------------------------------------------- */
 #primary {
 	float: left;
-	margin: 0 -25% 0 0;
+	margin: 0 -20% 0 0;
 	width: 70%;
-	min-width: 630px;
 }
 #content {
-	margin: 0 25% 0;
+	margin: 0 20% 0;
 	padding: 0 0 0 2%;
+	min-width: 915px;
 }
 #secondary { /* Sidebar 1 */
 	float: right;
