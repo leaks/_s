@@ -613,6 +613,7 @@ object {
 }
 .site-header {
 	margin: 0 25% 0;
+	min-width: 900px;
 }
 
 .site-title {
@@ -691,6 +692,7 @@ object {
 	float: left;
 	margin: 0 -25% 0 0;
 	width: 70%;
+	min-width: 630px;
 }
 #content {
 	margin: 0 25% 0;
