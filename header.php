@@ -25,7 +25,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/header.png" width="800px" height="300px" nopin="nopin" />
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/header.png" width="800px" height="300px" nopin="nopin" alt="Sophster Toaster"/>
 			</a>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		</div>
