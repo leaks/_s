@@ -469,6 +469,8 @@ background-color: #F4F1EC;
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	font-size: 22px;
+	color: #D3D3D3;
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -612,8 +614,9 @@ object {
 	text-align: center;
 }
 .site-header {
-	margin: 0 25% 0;
+	margin: 2em 16% 0;
 	min-width: 900px;
+	background-color: #F4F1EC;
 }
 
 .site-title {
@@ -661,6 +664,12 @@ object {
 	margin: 0 0 1.5em;
 }
 
+.widget-title {
+	font-family: NeoRetroFill;
+	font-size: 29px;
+	color: #E01E39;
+}
+
 /* Make sure select elements fit in widgets */
 .widget select {
 	max-width: 100%;
@@ -690,11 +699,11 @@ object {
 ----------------------------------------------- */
 #primary {
 	float: left;
-	margin: 0 -20% 0 0;
+	margin: 0 -16% 0 0;
 	width: 70%;
 }
 #content {
-	margin: 0 20% 0;
+	margin: 0 16% 0;
 	padding: 0 0 0 2%;
 	min-width: 915px;
 }
