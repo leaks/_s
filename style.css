@@ -31,6 +31,7 @@ and Blueprint http://www.blueprintcss.org/
 @font-face { font-family: NeoRetroFill; src: url('fonts/NEORF___.ttf'); }
 @font-face { font-family: NeoRetroShadow; src: url('fonts/NEORS___.ttf'); }
 
+
 /* =Reset
 -------------------------------------------------------------- */
 
@@ -680,11 +681,11 @@ object {
 }
 
 [class*="navigation"] .nav-previous a {
-	color: #D3D3D3;
+	color: #41342B;
 }
 
 [class*="navigation"] .nav-next a {
-	color: #D3D3D3;
+	color: #41342B;
 }
 
 /* =Comments
