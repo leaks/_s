@@ -362,14 +362,40 @@ textarea {
 
 /* Links */
 a {
-	color: #41342B;
+	color: #D3D3D3;
 	text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	text-decoration: underline;
+	text-decoration: none;
+	color: #41342B;
+}
+
+.more-link {
+	text-decoration: none;
+	color: #41342B;
+}
+
+.comments-link a {
+	text-decoration: none;
+	color: #41342B;
+}
+
+.posted-on a {
+	text-decoration: none;
+	color: #41342B;
+}
+
+.byline a {
+	text-decoration: none;
+	color: #41342B;
+}
+
+.widget-area a {
+	text-decoration: none;
+	color: #41342B;
 }
 
 /* Alignment */
@@ -579,6 +605,7 @@ background-color: #F4F1EC;
 }
 .wp-caption-text {
 	text-align: center;
+	font-size: 14px;
 }
 .wp-caption .wp-caption-text {
 	margin: 0.8075em 0;
