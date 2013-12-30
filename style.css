@@ -131,6 +131,12 @@ h1 a {
 	color: #E01E39;
 }
 
+h1 a:hover,
+h1 a:focus,
+h1 a:active  {
+	color: #E01E39;
+}
+
 h2 {
 	font-family: NeoRetroFill;
 	font-size: 29px;
@@ -362,7 +368,7 @@ textarea {
 
 /* Links */
 a {
-	color: #D3D3D3;
+	color: #E97163;
 	text-decoration: none;
 }
 
@@ -673,6 +679,13 @@ object {
 	width: 50%;
 }
 
+[class*="navigation"] .nav-previous a {
+	color: #D3D3D3;
+}
+
+[class*="navigation"] .nav-next a {
+	color: #D3D3D3;
+}
 
 /* =Comments
 ----------------------------------------------- */
