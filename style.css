@@ -526,7 +526,7 @@ background-color: #F4F1EC;
 	display: block;
 	float: left;
 	width: 100%;
-	margin: 1em 0 1em 0;
+	margin: 1em 0 1em 2em;
 }
 .main-navigation ul {
 	list-style: none;
@@ -689,7 +689,7 @@ object {
 }
 .site-header {
 	margin: 2em 16% 0;
-	min-width: 900px;
+	min-width: 940px;
 	background-color: #F4F1EC;
 }
 
