@@ -151,7 +151,7 @@ button,
 input,
 select,
 textarea {
-	color: #41342B;
+	color: #000000;
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
@@ -178,32 +178,32 @@ h1 a:active  {
 }
 
 h2 {
-	font-family: NeoRetroFill;
-	font-size: 29px;
+	font-family: NeoRetroShadow;
+	font-size: 28px;
 	color: #E01E39;
 }
 
 h3 {
-	font-family: NeoRetroFill;
-	font-size: 26px;
-	color: #E97163;
-}
-
-h4 {
-	font-family: NeoRetroFill;
+	font-family: NeoRetroShadow;
 	font-size: 24px;
 	color: #E97163;
 }
 
-h5 {
-	font-family: NeoRetroFill;
+h4 {
+	font-family: NeoRetroShadow;
 	font-size: 22px;
+	color: #E97163;
+}
+
+h5 {
+	font-family: NeoRetroShadow;
+	font-size: 20px;
 	color: #D3D3D3;
 }
 
 h6 {
-	font-family: NeoRetroFill;
-	font-size: 19px;
+	font-family: NeoRetroShadow;
+	font-size: 18px;
 	color: #D3D3D3;
 }
 
@@ -416,32 +416,32 @@ a:hover,
 a:focus,
 a:active {
 	text-decoration: none;
-	color: #41342B;
+	color: #000000;
 }
 
 .more-link {
 	text-decoration: none;
-	color: #41342B;
+	color: #000000;
 }
 
 .comments-link a {
 	text-decoration: none;
-	color: #41342B;
+	color: #000000;
 }
 
 .posted-on a {
 	text-decoration: none;
-	color: #41342B;
+	color: #000000;
 }
 
 .byline a {
 	text-decoration: none;
-	color: #41342B;
+	color: #000000;
 }
 
 .widget-area a {
 	text-decoration: none;
-	color: #41342B;
+	color: #000000;
 }
 
 /* Alignment */
@@ -539,9 +539,10 @@ background-color: #F4F1EC;
 	margin: 0 1em 0 0;
 }
 .main-navigation a {
+	font-family: NeoRetroShadow;
 	display: block;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 24px;
 	color: #D3D3D3;
 	font-weight:bold;
 }
@@ -721,11 +722,11 @@ object {
 }
 
 [class*="navigation"] .nav-previous a {
-	color: #41342B;
+	color: #000000;
 }
 
 [class*="navigation"] .nav-next a {
-	color: #41342B;
+	color: #000000;
 }
 
 /* =Comments
@@ -746,9 +747,9 @@ object {
 }
 
 .widget-title {
-	font-family: NeoRetroFill;
-	font-size: 29px;
-	color: #E01E39;
+	font-family: NeoRetroShadow;
+	font-size: 24px;
+	color: #E97163;
 }
 
 /* Make sure select elements fit in widgets */
